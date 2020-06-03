@@ -6,6 +6,7 @@ public class Entrenamiento {
 		Cronometro miCrono = new Cronometro();
 		Cancha miCancha = new Cancha(miBalon, miCrono);
 		Portero miPortero = new Portero(miCancha);
+		miPortero.setName("Portero");
 		Jugador miJugador1 = new Jugador(miCancha);
 		miJugador1.setName("Jugador1");
 		Jugador miJugador2 = new Jugador(miCancha);
