@@ -1,6 +1,19 @@
 package futbolsala;
 
+/**
+ * Clase Entrenamiento 
+ * 
+ * Clase que principal del ejercicio, la cual constade un main que ejecuta el programa
+ * 
+ * @author Jose Morales
+ *
+ */
 public class Entrenamiento {
+	/**
+	 * Main de la clase, Crea el objeto balón, cronómetro, cancha y ademas los 4 jugadores y el portero que van a participar en el entrenamiento
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Balon miBalon = new Balon();
 		Cronometro miCrono = new Cronometro();
